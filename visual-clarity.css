@@ -1,0 +1,142 @@
+/* Ajustes de claridad de la iteración visual · identidad FotoV */
+.section-heading h2{font-size:clamp(24px,2.15vw,30px);line-height:1.2}
+.section-heading>p{font-size:14px;line-height:1.6;max-width:430px}
+.section-kicker,.panel-label{font-size:11px;letter-spacing:.09em}
+.nav-item{font-size:14px;min-height:46px}
+.nav-index{font-size:11px}
+.scope-card strong{font-size:12px}
+.scope-card small{font-size:11px}
+.panel-top h3,.panel h3{font-size:18px;line-height:1.32}
+.chart-caption{font-size:12px;line-height:1.55;gap:8px 12px}
+.chart-caption .source-badge,.source-badge,.source-link{font-size:11px;line-height:1.45}
+.info-button{width:27px;height:27px;font-size:13px}
+.generation-controls{grid-template-columns:minmax(230px,1.15fr) minmax(170px,.65fr) minmax(270px,1.2fr);align-items:end;gap:14px}
+.generation-controls .section-kicker{display:block;margin-bottom:6px}
+.generation-controls .select-control{min-height:44px;font-size:13px}
+.generation-data-source{font-size:13px;line-height:1.45;flex-wrap:wrap}
+.generation-series-note{margin:-4px 0 18px;padding:12px 15px;border:1px solid #dce5eb;border-left:4px solid var(--gold);border-radius:7px;background:#fff;color:#52677a;font-size:13px;line-height:1.6}
+.generation-kpis{gap:12px}
+.generation-kpi{padding:16px;min-height:142px}
+.generation-kpi>span{font-size:11px;line-height:1.4;letter-spacing:.07em}
+.generation-kpi>strong{font-size:clamp(22px,2vw,29px);line-height:1.2}
+.generation-kpi>small{font-size:12px;line-height:1.45}
+.generation-kpi .source-link{font-size:11px;margin-top:7px}
+.generation-category-legend,.national-distribution-legend{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;margin:0 0 12px;color:#43586a;font-size:12px}
+.generation-category-legend span,.national-distribution-legend span{display:inline-flex;align-items:center;gap:7px}
+.generation-category-legend i,.national-distribution-legend i{display:inline-block;width:12px;height:12px;border-radius:3px;border:1px solid rgba(6,27,48,.12)}
+.category-fossil,.legend-prior,.cycle-line-key{background:#0B3154}
+.category-renewable,.steam-line-key{background:#F5A623}
+.category-nuclear{background:#FFD36A}
+.category-cogen{background:#061B30}
+.technology-row{min-height:36px;grid-template-columns:34px minmax(115px,1.1fr) minmax(90px,2fr) 58px;gap:10px;padding:5px 7px}
+.technology-row .tech-name{font-size:13px;line-height:1.35}
+.technology-row .tech-rank{font-size:11px}
+.technology-row>b{font-size:13px}
+.technology-row .tech-bar{height:13px}
+.cycle-line-key,.steam-line-key{width:20px!important;height:4px!important;border:0!important;border-radius:4px!important}
+.thermal-legend{margin-top:-2px}
+.cycle-steam-chart{min-height:250px}
+.generation-chart svg,.cycle-steam-chart svg{width:100%;height:auto;display:block}
+.distribution-kpis{gap:12px}
+.distribution-kpis .generation-kpi{min-height:132px;padding:15px}
+.distribution-kpis .generation-kpi>strong{font-size:clamp(21px,2vw,27px)}
+.distribution-kpis .generation-kpi>small{font-size:12px}
+.national-series-heading{margin-top:28px}
+.national-distribution-panel{padding:20px;margin-bottom:22px}
+.national-distribution-legend{margin-top:12px}
+.national-distribution-legend .legend-current{background:#F5A623}
+.distribution-national-series{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.national-mini-chart{min-width:0;padding:13px 12px 8px;border:1px solid #e0e7ed;border-radius:8px;background:#fff}
+.national-mini-chart-head{display:grid;gap:3px;min-height:48px}
+.national-mini-chart-head h4{margin:0;color:#0B3154;font:700 15px/1.3 var(--font-head)}
+.national-mini-chart-head span{color:#64778a;font-size:11px;line-height:1.4}
+.national-mini-chart svg{display:block;width:100%;height:auto;overflow:visible}
+.national-mini-chart svg text{font-size:12px}
+.national-series-note{margin-top:12px;padding-top:10px;border-top:1px solid #e6ecf0;color:#64778a;font-size:12px;line-height:1.6}
+.dist-bar-row,.dist-loss-row{min-height:28px;gap:11px;padding:3px 6px}
+.dist-bar-label{font-size:12px;line-height:1.35}
+.dist-bar-row strong,.dist-loss-row strong{font-size:11px}
+.dist-bar-track,.dist-loss-track{height:15px}
+.dist-scale{font-size:11px;line-height:1.5}
+.distribution-division-table-panel .panel-top h3{font-size:19px}
+.division-data-table{font-size:13px}
+.division-data-table tbody th,.division-data-table tbody td{font-size:13px}
+.division-data-table thead th{font-size:11px}
+.division-detail-note,.division-detail-grid>div span{font-size:11px;line-height:1.5}
+.division-detail-grid>div b{font-size:13px}
+.insight-card h3{font-size:17px;line-height:1.38}
+.insight-topic,.insight-number{font-size:11px}
+.insight-metric span{font-size:12px}
+.insight-bar-row{font-size:12px;grid-template-columns:minmax(100px,1fr) minmax(90px,2fr) minmax(48px,.55fr)}
+.insight-bar-row>b{font-size:11px}
+.insight-track{height:12px}
+.insight-bar-row .insight-track i,.insight-bar-row:nth-child(2n) .insight-track i{background:#0B3154}
+.insight-detail summary{font-size:12px}
+.insight-detail p{font-size:12px;line-height:1.6}
+.insight-source>span{font-size:10px}
+.insight-source .source-link{font-size:11px;white-space:normal}
+.legal-timeline article>span,.legal-structure-grid article>span,.repercussion-grid article>span{font-size:11px}
+.legal-timeline p,.legal-structure-grid p,.repercussion-grid p,.legal-reading-note{font-size:12px;line-height:1.6}
+.legal-timeline small,.repercussion-grid small,.legal-source-line{font-size:10px;line-height:1.55}
+.participation-comparison{grid-column:1/-1}
+.participation-year-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:10px 0 12px}
+.participation-year{min-width:0;padding:12px;border:1px solid rgba(255,255,255,.14);border-radius:8px;background:rgba(255,255,255,.045)}
+.participation-year header{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:10px}
+.participation-year header span{color:#c3d0da;font:700 9px/1.4 var(--font-mono);letter-spacing:.06em}
+.participation-year header strong{flex:none;margin:0;color:var(--gold-light);font:700 21px/1 var(--font-mono)}
+.participation-track{display:flex;height:15px;overflow:hidden;border-radius:99px;background:#405468}
+.participation-track i{display:block;height:100%;background:#F5A623}
+.participation-track em{display:block;height:100%;background:#8395a5}
+.participation-legend{display:grid;gap:6px;margin-top:9px;color:#d5dee5;font-size:10px;line-height:1.4}
+.participation-legend span{display:flex;align-items:center;gap:7px}
+.participation-legend i{display:inline-block;flex:none;width:9px;height:9px;border-radius:2px;background:#F5A623}
+.participation-legend .participation-rest{background:#8395a5}
+.participation-sources{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.participation-sources .source-link{padding:6px 9px;border:1px solid rgba(255,255,255,.22);border-radius:99px;background:rgba(255,255,255,.06);color:#fff;font-size:10px;cursor:pointer}
+.participation-sources .source-link:hover{background:rgba(255,255,255,.14)}
+.source-dialog{max-width:min(760px,calc(100vw - 28px))}
+.source-dialog #source-content{font-size:14px;line-height:1.65}
+.source-dialog #source-content a{overflow-wrap:anywhere}
+.coverage-note,.distribution-data-note{font-size:13px;line-height:1.65}
+@media(max-width:560px){.participation-year-grid{grid-template-columns:1fr}.participation-year{padding:10px}.participation-year header span{font-size:9px}}
+
+/* El clasificador evalúa el nombre: sin pistas de color, tipo o definición previa. */
+.resource-card{display:flex;align-items:center;justify-content:center;min-height:64px;padding:12px;background:#fff;border:1px solid #dce4ea;border-radius:9px;box-shadow:0 2px 7px rgba(6,27,48,.035)}
+.resource-card .card-name{font-size:13px;line-height:1.35;text-align:center}
+.resource-card:hover,.resource-card.selected{background:#f7f9fb;border-color:#8394a2;box-shadow:0 4px 12px rgba(6,27,48,.09);transform:translateY(-2px)}
+.drop-zone,.drop-zone.fossil,.drop-zone.nuclear,.drop-zone.renewable,.drop-zone.technology{grid-template-columns:1fr auto;grid-template-rows:1fr;min-height:68px;background:#fff;border:1px dashed #aebbc5;color:#263b4b}
+.drop-zone:hover,.drop-zone.drag-over{background:#f7f9fb;border-color:#52677a;box-shadow:0 5px 14px rgba(7,29,49,.08)}
+.drop-zone strong{align-self:center;font-size:14px}
+.drop-zone .zone-count{grid-column:2;grid-row:1;color:#607184;font-size:14px}
+
+@media(max-width:1000px){
+ .generation-controls{grid-template-columns:1fr 1fr}
+ .generation-data-source{grid-column:1/-1}
+}
+@media(max-width:700px){
+ .distribution-national-series{grid-template-columns:1fr}
+ .national-distribution-panel{padding:14px}
+ .national-mini-chart{padding:12px 8px 6px}
+}
+@media(max-width:560px){
+ .section-heading h2{font-size:24px}
+ .section-heading>p{font-size:13px}
+ .panel-top h3,.panel h3{font-size:17px}
+ .generation-controls{grid-template-columns:1fr;gap:10px}
+ .generation-data-source{grid-column:auto}
+ .generation-kpis{gap:8px}
+ .generation-kpi{min-height:126px;padding:12px}
+ .generation-kpi>span{font-size:10px}
+ .generation-kpi>strong{font-size:21px}
+ .technology-row{grid-template-columns:27px minmax(92px,1.1fr) minmax(58px,1.35fr) 46px;gap:6px;padding-inline:3px}
+ .technology-row .tech-name{font-size:11px}
+ .technology-row>b{font-size:11px}
+ .generation-category-legend,.national-distribution-legend{gap:8px 11px;font-size:11px}
+ .national-mini-chart-head h4{font-size:14px}
+ .national-mini-chart svg text{font-size:12px}
+ .dist-bar-row,.dist-loss-row{grid-template-columns:minmax(120px,1.05fr) minmax(85px,1.8fr) minmax(72px,.7fr);gap:7px}
+ .dist-bar-label{font-size:11px}
+ .dist-bar-row strong,.dist-loss-row strong{font-size:10px}
+ .insight-card h3{font-size:16px}
+ .insight-detail p{font-size:12px}
+}
